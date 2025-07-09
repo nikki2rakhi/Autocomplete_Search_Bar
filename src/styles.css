@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.search-input {
+  width: 350px;
+  padding: 8px;
+}
+.recipes-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 10px;
+  text-align: left;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.recipes-name {
+  margin: 5px;
+  display: flex;
+  cursor: pointer;
+}
+.recipes-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.recipes-name:hover {
+  background-color: rgb(226, 222, 222);
+}
